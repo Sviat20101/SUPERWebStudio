@@ -15,3 +15,15 @@
 git add .
 git commit -m "Deploy to GitHub Pages"
 git push origin main
+git init  # Ініціалізуємо Git у папці
+git add .  # Додаємо всі файли в репозиторій
+git commit -m "Initial commit"  # Робимо перший коміт
+git branch -M main  # Перейменовуємо гілку в main
+git remote add origin https://github.com/Sviat20101/Webstudio.git  # Підключаємо віддалений репозиторій
+git push -u origin main  # Завантажуємо код у GitHub
+git init  # Ініціалізуємо Git у папці
+git add .  # Додаємо всі файли в індекс
+git commit -m "Initial commit"  # Створюємо коміт
+git branch -M main  # Перейменовуємо гілку в main
+git remote add origin https://github.com/Sviat20101/Webstudio.git  # Підключаємо віддалений репозиторій
+git push -u origin main  # Відправляємо код у GitHub
