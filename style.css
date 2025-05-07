@@ -1,4 +1,5 @@
-* {
+*{  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -10,21 +11,12 @@
   --input-color: #000000;
 }
 
-html, body {
-  height: 100%;
-}
-
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  font-family: "Montserrat", sans-serif;
+ font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 1.17;
   color: var(--black);
   background-color: var(--white);
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -37,14 +29,9 @@ ul {
   margin: 0;
 }
 
-h1, h2, h3, ul, li, button, input, label, form, p {
-  margin: 0;
-  padding: 0;
-}
 
 .container {
-  width: 100%;
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -80,17 +67,17 @@ h1, h2, h3, ul, li, button, input, label, form, p {
 /* Hero */
 .hero {
   background-color: #2f303a;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
 .hero-title {
   color: #ffffff;
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 44px;
+  font-weight: 900;
+  width: 700px;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
